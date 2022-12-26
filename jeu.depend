@@ -1,0 +1,939 @@
+# depslib dependency file v1.0
+1661088774 source:c:\users\elian\onedrive\bureau\cpp\jeu\main.cpp
+	"engine.h"
+	"game.h"
+	"world.h"
+
+1661865140 c:\users\elian\onedrive\bureau\cpp\jeu\engine.h
+	"header.h"
+	"game.h"
+	"model.h"
+
+1662110744 c:\users\elian\onedrive\bureau\cpp\jeu\header.h
+	<glad/glad.h>
+	<GLFW/glfw3.h>
+	<stb/stb_image.h>
+	<glm/glm.hpp>
+	<glm/gtc/matrix_transform.hpp>
+	<glm/gtc/type_ptr.hpp>
+	<time.h>
+	<vector>
+	<map>
+	<iostream>
+	<cstdlib>
+	<cassert>
+	<cmath>
+	<math.h>
+	<fstream>
+	<sstream>
+
+1672065550 c:\users\elian\onedrive\bureau\cpp\jeu\game.h
+	"header.h"
+	"engine.h"
+	"world.h"
+	"model.h"
+
+1659713967 c:\users\elian\onedrive\bureau\cpp\jeu\player.h
+	"engine.h"
+
+1659713371 source:c:\users\elian\onedrive\bureau\cpp\jeu\player.cpp
+	"player.h"
+
+1662832166 source:c:\users\elian\onedrive\bureau\cpp\jeu\game.cpp
+	"game.h"
+
+1662189077 source:c:\users\elian\onedrive\bureau\cpp\jeu\engine.cpp
+	"engine.h"
+
+1672065222 source:c:\users\elian\onedrive\bureau\cpp\jeu\world.cpp
+	"world.h"
+
+1661870456 c:\users\elian\onedrive\bureau\cpp\jeu\world.h
+	"header.h"
+	"engine.h"
+	"model.h"
+	"game.h"
+
+1660498638 c:\users\elian\onedrive\bureau\cpp\jeu\include\glad\glad.h
+	<KHR/khrplatform.h>
+
+1579479197 c:\users\elian\onedrive\bureau\cpp\jeu\include\glfw\glfw3.h
+	<stddef.h>
+	<stdint.h>
+	<vulkan/vulkan.h>
+	<GLES/gl.h>
+	<GLES/glext.h>
+	<GLES2/gl2.h>
+	<GLES2/gl2ext.h>
+	<GLES3/gl3.h>
+	<GLES2/gl2ext.h>
+	<GLES3/gl31.h>
+	<GLES2/gl2ext.h>
+	<GLES3/gl32.h>
+	<GLES2/gl2ext.h>
+	<OpenGL/gl3.h>
+	<OpenGL/gl3ext.h>
+	<GL/glcorearb.h>
+	<OpenGL/gl.h>
+	<OpenGL/glu.h>
+	<GL/gl.h>
+	<GL/glext.h>
+	<GL/glu.h>
+
+1660498638 c:\users\elian\onedrive\bureau\cpp\jeu\include\khr\khrplatform.h
+	<stdint.h>
+	<inttypes.h>
+	<stdint.h>
+
+1660555517 source:c:\users\elian\onedrive\bureau\cpp\jeu\glad.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<glad/glad.h>
+	<windows.h>
+	<winapifamily.h>
+	<dlfcn.h>
+
+1660769617 source:c:\users\elian\onedrive\bureau\cpp\jeu\resource\shaders\shaders.cpp
+	"shaders.h"
+
+1661293711 c:\users\elian\onedrive\bureau\cpp\jeu\resource\shaders\shaders.h
+	<glad/glad.h>
+	<string>
+	<fstream>
+	<sstream>
+	<iostream>
+	<cerrno>
+
+1660983967 source:c:\users\elian\onedrive\bureau\cpp\jeu\resource\vbo\vbo.cpp
+	"vbo.h"
+
+1661293629 c:\users\elian\onedrive\bureau\cpp\jeu\resource\vbo\vbo.h
+	<glm/glm.hpp>
+	<glad/glad.h>
+	<vector>
+
+1660767882 source:c:\users\elian\onedrive\bureau\cpp\jeu\resource\vao\vao.cpp
+	"vao.h"
+
+1661293711 c:\users\elian\onedrive\bureau\cpp\jeu\resource\vao\vao.h
+	<glad/glad.h>
+	"vbo.h"
+
+1660983909 c:\users\elian\onedrive\bureau\cpp\jeu\resource\ebo\ebo.h
+	<glad/glad.h>
+	<vector>
+
+1660983961 source:c:\users\elian\onedrive\bureau\cpp\jeu\resource\ebo\ebo.cpp
+	"ebo.h"
+
+1660770185 c:\users\elian\onedrive\bureau\cpp\jeu\include\stb\stb_image.h
+	"stb_image.h"
+	<stdio.h>
+	<stdlib.h>
+	<stdarg.h>
+	<stddef.h>
+	<stdlib.h>
+	<string.h>
+	<limits.h>
+	<math.h>
+	<stdio.h>
+	<assert.h>
+	<stdint.h>
+	<emmintrin.h>
+	<intrin.h>
+	<arm_neon.h>
+
+1660770496 source:c:\users\elian\onedrive\bureau\cpp\jeu\stb.cpp
+	<stb/stb_image.h>
+
+1661293629 c:\users\elian\onedrive\bureau\cpp\jeu\resource\textures\texture.h
+	<glad/glad.h>
+	<stb/stb_image.h>
+	"shaders.h"
+
+1661072295 source:c:\users\elian\onedrive\bureau\cpp\jeu\resource\textures\texture.cpp
+	"texture.h"
+
+1502884118 c:\users\elian\onedrive\bureau\cpp\jeu\include\glm\glm.hpp
+	"detail/_fixes.hpp"
+	<cmath>
+	<climits>
+	<cfloat>
+	<limits>
+	<cassert>
+	"fwd.hpp"
+	"vec2.hpp"
+	"vec3.hpp"
+	"vec4.hpp"
+	"mat2x2.hpp"
+	"mat2x3.hpp"
+	"mat2x4.hpp"
+	"mat3x2.hpp"
+	"mat3x3.hpp"
+	"mat3x4.hpp"
+	"mat4x2.hpp"
+	"mat4x3.hpp"
+	"mat4x4.hpp"
+	"trigonometric.hpp"
+	"exponential.hpp"
+	"common.hpp"
+	"packing.hpp"
+	"geometric.hpp"
+	"matrix.hpp"
+	"vector_relational.hpp"
+	"integer.hpp"
+
+1483566163 c:\users\elian\onedrive\bureau\cpp\jeu\include\glm\detail\_fixes.hpp
+	<cmath>
+
+1502884118 c:\users\elian\onedrive\bureau\cpp\jeu\include\glm\fwd.hpp
+	"detail/type_int.hpp"
+	"detail/type_float.hpp"
+	"detail/type_vec.hpp"
+	"detail/type_mat.hpp"
+
+1502884118 c:\users\elian\onedrive\bureau\cpp\jeu\include\glm\detail\type_int.hpp
+	"setup.hpp"
+	<type_traits>
+	<cstdint>
+
+1502884118 c:\users\elian\onedrive\bureau\cpp\jeu\include\glm\detail\setup.hpp
+	<cassert>
+	<cstddef>
+	"../simd/platform.h"
+
+1502884118 c:\users\elian\onedrive\bureau\cpp\jeu\include\glm\simd\platform.h
+	<cuda.h>
+	<intrin.h>
+	<immintrin.h>
+	<immintrin.h>
+	<popcntintrin.h>
+	<nmmintrin.h>
+	<smmintrin.h>
+	<tmmintrin.h>
+	<pmmintrin.h>
+	<emmintrin.h>
+
+1502884118 c:\users\elian\onedrive\bureau\cpp\jeu\include\glm\detail\type_float.hpp
+	"setup.hpp"
+
+1502884118 c:\users\elian\onedrive\bureau\cpp\jeu\include\glm\detail\type_vec.hpp
+	"precision.hpp"
+	"type_int.hpp"
+
+1502884118 c:\users\elian\onedrive\bureau\cpp\jeu\include\glm\detail\precision.hpp
+	"setup.hpp"
+
+1502884118 c:\users\elian\onedrive\bureau\cpp\jeu\include\glm\detail\type_mat.hpp
+	"precision.hpp"
+
+1502884118 c:\users\elian\onedrive\bureau\cpp\jeu\include\glm\vec2.hpp
+	"detail/type_vec2.hpp"
+
+1502884118 c:\users\elian\onedrive\bureau\cpp\jeu\include\glm\detail\type_vec2.hpp
+	"type_vec.hpp"
+	"_swizzle.hpp"
+	"_swizzle_func.hpp"
+	<cstddef>
+	"type_vec2.inl"
+
+1502884118 c:\users\elian\onedrive\bureau\cpp\jeu\include\glm\detail\_swizzle.hpp
+
+1502884118 c:\users\elian\onedrive\bureau\cpp\jeu\include\glm\detail\_swizzle_func.hpp
+
+1502884118 c:\users\elian\onedrive\bureau\cpp\jeu\include\glm\detail\type_vec2.inl
+
+1502884118 c:\users\elian\onedrive\bureau\cpp\jeu\include\glm\vec3.hpp
+	"detail/type_vec3.hpp"
+
+1502884118 c:\users\elian\onedrive\bureau\cpp\jeu\include\glm\detail\type_vec3.hpp
+	"type_vec.hpp"
+	"_swizzle.hpp"
+	"_swizzle_func.hpp"
+	<cstddef>
+	"type_vec3.inl"
+
+1502884118 c:\users\elian\onedrive\bureau\cpp\jeu\include\glm\detail\type_vec3.inl
+
+1502884118 c:\users\elian\onedrive\bureau\cpp\jeu\include\glm\vec4.hpp
+	"detail/type_vec4.hpp"
+
+1502884118 c:\users\elian\onedrive\bureau\cpp\jeu\include\glm\detail\type_vec4.hpp
+	"type_vec.hpp"
+	"_swizzle.hpp"
+	"_swizzle_func.hpp"
+	<cstddef>
+	"type_vec4.inl"
+
+1502884118 c:\users\elian\onedrive\bureau\cpp\jeu\include\glm\detail\type_vec4.inl
+	"type_vec4_simd.inl"
+
+1502884118 c:\users\elian\onedrive\bureau\cpp\jeu\include\glm\detail\type_vec4_simd.inl
+
+1502884118 c:\users\elian\onedrive\bureau\cpp\jeu\include\glm\mat2x2.hpp
+	"detail/type_mat2x2.hpp"
+
+1502884118 c:\users\elian\onedrive\bureau\cpp\jeu\include\glm\detail\type_mat2x2.hpp
+	"../fwd.hpp"
+	"type_vec2.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat2x2.inl"
+
+1502884118 c:\users\elian\onedrive\bureau\cpp\jeu\include\glm\detail\type_mat2x2.inl
+	"func_matrix.hpp"
+
+1502884118 c:\users\elian\onedrive\bureau\cpp\jeu\include\glm\detail\func_matrix.hpp
+	"../detail/precision.hpp"
+	"../detail/setup.hpp"
+	"../detail/type_mat.hpp"
+	"../vec2.hpp"
+	"../vec3.hpp"
+	"../vec4.hpp"
+	"../mat2x2.hpp"
+	"../mat2x3.hpp"
+	"../mat2x4.hpp"
+	"../mat3x2.hpp"
+	"../mat3x3.hpp"
+	"../mat3x4.hpp"
+	"../mat4x2.hpp"
+	"../mat4x3.hpp"
+	"../mat4x4.hpp"
+	"func_matrix.inl"
+
+1502884118 c:\users\elian\onedrive\bureau\cpp\jeu\include\glm\mat2x3.hpp
+	"detail/type_mat2x3.hpp"
+
+1502884118 c:\users\elian\onedrive\bureau\cpp\jeu\include\glm\detail\type_mat2x3.hpp
+	"../fwd.hpp"
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat2x3.inl"
+
+1502884118 c:\users\elian\onedrive\bureau\cpp\jeu\include\glm\detail\type_mat2x3.inl
+
+1502884118 c:\users\elian\onedrive\bureau\cpp\jeu\include\glm\mat2x4.hpp
+	"detail/type_mat2x4.hpp"
+
+1502884118 c:\users\elian\onedrive\bureau\cpp\jeu\include\glm\detail\type_mat2x4.hpp
+	"../fwd.hpp"
+	"type_vec2.hpp"
+	"type_vec4.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat2x4.inl"
+
+1502884118 c:\users\elian\onedrive\bureau\cpp\jeu\include\glm\detail\type_mat2x4.inl
+
+1502884118 c:\users\elian\onedrive\bureau\cpp\jeu\include\glm\mat3x2.hpp
+	"detail/type_mat3x2.hpp"
+
+1502884118 c:\users\elian\onedrive\bureau\cpp\jeu\include\glm\detail\type_mat3x2.hpp
+	"../fwd.hpp"
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat3x2.inl"
+
+1502884118 c:\users\elian\onedrive\bureau\cpp\jeu\include\glm\detail\type_mat3x2.inl
+
+1502884118 c:\users\elian\onedrive\bureau\cpp\jeu\include\glm\mat3x3.hpp
+	"detail/type_mat3x3.hpp"
+
+1502884118 c:\users\elian\onedrive\bureau\cpp\jeu\include\glm\detail\type_mat3x3.hpp
+	"../fwd.hpp"
+	"type_vec3.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat3x3.inl"
+
+1502884118 c:\users\elian\onedrive\bureau\cpp\jeu\include\glm\detail\type_mat3x3.inl
+	"func_matrix.hpp"
+
+1502884118 c:\users\elian\onedrive\bureau\cpp\jeu\include\glm\mat3x4.hpp
+	"detail/type_mat3x4.hpp"
+
+1502884118 c:\users\elian\onedrive\bureau\cpp\jeu\include\glm\detail\type_mat3x4.hpp
+	"../fwd.hpp"
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat3x4.inl"
+
+1502884118 c:\users\elian\onedrive\bureau\cpp\jeu\include\glm\detail\type_mat3x4.inl
+
+1502884118 c:\users\elian\onedrive\bureau\cpp\jeu\include\glm\mat4x2.hpp
+	"detail/type_mat4x2.hpp"
+
+1502884118 c:\users\elian\onedrive\bureau\cpp\jeu\include\glm\detail\type_mat4x2.hpp
+	"../fwd.hpp"
+	"type_vec2.hpp"
+	"type_vec4.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat4x2.inl"
+
+1502884118 c:\users\elian\onedrive\bureau\cpp\jeu\include\glm\detail\type_mat4x2.inl
+
+1502884118 c:\users\elian\onedrive\bureau\cpp\jeu\include\glm\mat4x3.hpp
+	"detail/type_mat4x3.hpp"
+
+1502884118 c:\users\elian\onedrive\bureau\cpp\jeu\include\glm\detail\type_mat4x3.hpp
+	"../fwd.hpp"
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat4x3.inl"
+
+1502884118 c:\users\elian\onedrive\bureau\cpp\jeu\include\glm\detail\type_mat4x3.inl
+
+1502884118 c:\users\elian\onedrive\bureau\cpp\jeu\include\glm\mat4x4.hpp
+	"detail/type_mat4x4.hpp"
+
+1502884118 c:\users\elian\onedrive\bureau\cpp\jeu\include\glm\detail\type_mat4x4.hpp
+	"../fwd.hpp"
+	"type_vec4.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat4x4.inl"
+
+1502884118 c:\users\elian\onedrive\bureau\cpp\jeu\include\glm\detail\type_mat4x4.inl
+	"func_matrix.hpp"
+	"type_mat4x4_simd.inl"
+
+1483566163 c:\users\elian\onedrive\bureau\cpp\jeu\include\glm\detail\type_mat4x4_simd.inl
+
+1502884118 c:\users\elian\onedrive\bureau\cpp\jeu\include\glm\detail\func_matrix.inl
+	"../geometric.hpp"
+	<limits>
+	"func_matrix_simd.inl"
+
+1502884118 c:\users\elian\onedrive\bureau\cpp\jeu\include\glm\geometric.hpp
+	"detail/func_geometric.hpp"
+
+1502884118 c:\users\elian\onedrive\bureau\cpp\jeu\include\glm\detail\func_geometric.hpp
+	"type_vec3.hpp"
+	"func_geometric.inl"
+
+1502884118 c:\users\elian\onedrive\bureau\cpp\jeu\include\glm\detail\func_geometric.inl
+	"func_exponential.hpp"
+	"func_common.hpp"
+	"type_vec2.hpp"
+	"type_vec4.hpp"
+	"type_float.hpp"
+	"func_geometric_simd.inl"
+
+1502884118 c:\users\elian\onedrive\bureau\cpp\jeu\include\glm\detail\func_exponential.hpp
+	"type_vec1.hpp"
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+	<cmath>
+	"func_exponential.inl"
+
+1502884118 c:\users\elian\onedrive\bureau\cpp\jeu\include\glm\detail\type_vec1.hpp
+	"../fwd.hpp"
+	"type_vec.hpp"
+	"_swizzle.hpp"
+	"_swizzle_func.hpp"
+	<cstddef>
+	"type_vec1.inl"
+
+1502884118 c:\users\elian\onedrive\bureau\cpp\jeu\include\glm\detail\type_vec1.inl
+
+1502884118 c:\users\elian\onedrive\bureau\cpp\jeu\include\glm\detail\func_exponential.inl
+	"func_vector_relational.hpp"
+	"_vectorize.hpp"
+	<limits>
+	<cmath>
+	<cassert>
+	"func_exponential_simd.inl"
+
+1502884118 c:\users\elian\onedrive\bureau\cpp\jeu\include\glm\detail\func_vector_relational.hpp
+	"precision.hpp"
+	"setup.hpp"
+	"func_vector_relational.inl"
+
+1502884118 c:\users\elian\onedrive\bureau\cpp\jeu\include\glm\detail\func_vector_relational.inl
+	<limits>
+	"func_vector_relational_simd.inl"
+
+1483566163 c:\users\elian\onedrive\bureau\cpp\jeu\include\glm\detail\func_vector_relational_simd.inl
+
+1502884118 c:\users\elian\onedrive\bureau\cpp\jeu\include\glm\detail\_vectorize.hpp
+	"type_vec1.hpp"
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+
+1502884118 c:\users\elian\onedrive\bureau\cpp\jeu\include\glm\detail\func_exponential_simd.inl
+	"../simd/exponential.h"
+
+1483566164 c:\users\elian\onedrive\bureau\cpp\jeu\include\glm\simd\exponential.h
+	"platform.h"
+
+1502884118 c:\users\elian\onedrive\bureau\cpp\jeu\include\glm\detail\func_common.hpp
+	"setup.hpp"
+	"precision.hpp"
+	"type_int.hpp"
+	"_fixes.hpp"
+	"func_common.inl"
+
+1502884118 c:\users\elian\onedrive\bureau\cpp\jeu\include\glm\detail\func_common.inl
+	"func_vector_relational.hpp"
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+	"_vectorize.hpp"
+	<limits>
+	"func_common_simd.inl"
+
+1502884118 c:\users\elian\onedrive\bureau\cpp\jeu\include\glm\detail\func_common_simd.inl
+	"../simd/common.h"
+	<immintrin.h>
+
+1502884118 c:\users\elian\onedrive\bureau\cpp\jeu\include\glm\simd\common.h
+	"platform.h"
+
+1502884118 c:\users\elian\onedrive\bureau\cpp\jeu\include\glm\detail\func_geometric_simd.inl
+	"../simd/geometric.h"
+
+1483566164 c:\users\elian\onedrive\bureau\cpp\jeu\include\glm\simd\geometric.h
+	"common.h"
+
+1502884118 c:\users\elian\onedrive\bureau\cpp\jeu\include\glm\detail\func_matrix_simd.inl
+	"type_mat4x4.hpp"
+	"func_geometric.hpp"
+	"../simd/matrix.h"
+
+1502884118 c:\users\elian\onedrive\bureau\cpp\jeu\include\glm\simd\matrix.h
+	"geometric.h"
+
+1502884118 c:\users\elian\onedrive\bureau\cpp\jeu\include\glm\trigonometric.hpp
+	"detail/func_trigonometric.hpp"
+
+1502884118 c:\users\elian\onedrive\bureau\cpp\jeu\include\glm\detail\func_trigonometric.hpp
+	"setup.hpp"
+	"precision.hpp"
+	"func_trigonometric.inl"
+
+1502884118 c:\users\elian\onedrive\bureau\cpp\jeu\include\glm\detail\func_trigonometric.inl
+	"_vectorize.hpp"
+	<cmath>
+	<limits>
+	"func_trigonometric_simd.inl"
+
+1483566163 c:\users\elian\onedrive\bureau\cpp\jeu\include\glm\detail\func_trigonometric_simd.inl
+
+1502884118 c:\users\elian\onedrive\bureau\cpp\jeu\include\glm\exponential.hpp
+	"detail/func_exponential.hpp"
+
+1502884118 c:\users\elian\onedrive\bureau\cpp\jeu\include\glm\common.hpp
+	"detail/func_common.hpp"
+
+1502884118 c:\users\elian\onedrive\bureau\cpp\jeu\include\glm\packing.hpp
+	"detail/func_packing.hpp"
+
+1502884118 c:\users\elian\onedrive\bureau\cpp\jeu\include\glm\detail\func_packing.hpp
+	"type_vec2.hpp"
+	"type_vec4.hpp"
+	"func_packing.inl"
+
+1502884118 c:\users\elian\onedrive\bureau\cpp\jeu\include\glm\detail\func_packing.inl
+	"func_common.hpp"
+	"type_half.hpp"
+	"../fwd.hpp"
+	"func_packing_simd.inl"
+
+1502884118 c:\users\elian\onedrive\bureau\cpp\jeu\include\glm\detail\type_half.hpp
+	"setup.hpp"
+	"type_half.inl"
+
+1502884118 c:\users\elian\onedrive\bureau\cpp\jeu\include\glm\detail\type_half.inl
+
+1483566163 c:\users\elian\onedrive\bureau\cpp\jeu\include\glm\detail\func_packing_simd.inl
+
+1502884118 c:\users\elian\onedrive\bureau\cpp\jeu\include\glm\matrix.hpp
+	"detail/func_matrix.hpp"
+
+1502884118 c:\users\elian\onedrive\bureau\cpp\jeu\include\glm\vector_relational.hpp
+	"detail/func_vector_relational.hpp"
+
+1502884118 c:\users\elian\onedrive\bureau\cpp\jeu\include\glm\integer.hpp
+	"detail/func_integer.hpp"
+
+1502884118 c:\users\elian\onedrive\bureau\cpp\jeu\include\glm\detail\func_integer.hpp
+	"setup.hpp"
+	"precision.hpp"
+	"func_common.hpp"
+	"func_vector_relational.hpp"
+	"func_integer.inl"
+
+1502884118 c:\users\elian\onedrive\bureau\cpp\jeu\include\glm\detail\func_integer.inl
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+	"type_int.hpp"
+	"_vectorize.hpp"
+	<intrin.h>
+	<limits>
+	"func_integer_simd.inl"
+
+1502884118 c:\users\elian\onedrive\bureau\cpp\jeu\include\glm\detail\func_integer_simd.inl
+	"../simd/integer.h"
+
+1483566164 c:\users\elian\onedrive\bureau\cpp\jeu\include\glm\simd\integer.h
+
+1502884118 c:\users\elian\onedrive\bureau\cpp\jeu\include\glm\gtc\matrix_transform.hpp
+	"../mat4x4.hpp"
+	"../vec2.hpp"
+	"../vec3.hpp"
+	"../vec4.hpp"
+	"../gtc/constants.hpp"
+	"matrix_transform.inl"
+
+1502884118 c:\users\elian\onedrive\bureau\cpp\jeu\include\glm\gtc\constants.hpp
+	"../detail/setup.hpp"
+	"constants.inl"
+
+1502884118 c:\users\elian\onedrive\bureau\cpp\jeu\include\glm\gtc\constants.inl
+	<limits>
+
+1502884118 c:\users\elian\onedrive\bureau\cpp\jeu\include\glm\gtc\matrix_transform.inl
+	"../geometric.hpp"
+	"../trigonometric.hpp"
+	"../matrix.hpp"
+
+1502884118 c:\users\elian\onedrive\bureau\cpp\jeu\include\glm\gtc\type_ptr.hpp
+	"../gtc/quaternion.hpp"
+	"../vec2.hpp"
+	"../vec3.hpp"
+	"../vec4.hpp"
+	"../mat2x2.hpp"
+	"../mat2x3.hpp"
+	"../mat2x4.hpp"
+	"../mat3x2.hpp"
+	"../mat3x3.hpp"
+	"../mat3x4.hpp"
+	"../mat4x2.hpp"
+	"../mat4x3.hpp"
+	"../mat4x4.hpp"
+	<cstring>
+	"type_ptr.inl"
+
+1502884118 c:\users\elian\onedrive\bureau\cpp\jeu\include\glm\gtc\quaternion.hpp
+	"../mat3x3.hpp"
+	"../mat4x4.hpp"
+	"../vec3.hpp"
+	"../vec4.hpp"
+	"../gtc/constants.hpp"
+	"quaternion.inl"
+
+1502884118 c:\users\elian\onedrive\bureau\cpp\jeu\include\glm\gtc\quaternion.inl
+	"../trigonometric.hpp"
+	"../geometric.hpp"
+	"../exponential.hpp"
+	<limits>
+	"quaternion_simd.inl"
+
+1502884118 c:\users\elian\onedrive\bureau\cpp\jeu\include\glm\gtc\quaternion_simd.inl
+
+1502884118 c:\users\elian\onedrive\bureau\cpp\jeu\include\glm\gtc\type_ptr.inl
+	<cstring>
+
+1661329062 c:\users\elian\onedrive\bureau\cpp\jeu\resource\camera\camera.h
+	<glad/glad.h>
+	<GLFW/glfw3.h>
+	<glm/glm.hpp>
+	<glm/gtc/matrix_transform.hpp>
+	<glm/gtc/type_ptr.hpp>
+	<glm/gtx/rotate_vector.hpp>
+	<glm/gtx/vector_angle.hpp>
+	"shaders.h"
+
+1502884118 c:\users\elian\onedrive\bureau\cpp\jeu\include\glm\gtx\rotate_vector.hpp
+	"../glm.hpp"
+	"../gtx/transform.hpp"
+	"rotate_vector.inl"
+
+1502884118 c:\users\elian\onedrive\bureau\cpp\jeu\include\glm\gtx\transform.hpp
+	"../glm.hpp"
+	"../gtc/matrix_transform.hpp"
+	"transform.inl"
+
+1502884118 c:\users\elian\onedrive\bureau\cpp\jeu\include\glm\gtx\transform.inl
+
+1502884118 c:\users\elian\onedrive\bureau\cpp\jeu\include\glm\gtx\rotate_vector.inl
+
+1502884118 c:\users\elian\onedrive\bureau\cpp\jeu\include\glm\gtx\vector_angle.hpp
+	"../glm.hpp"
+	"../gtc/epsilon.hpp"
+	"../gtx/quaternion.hpp"
+	"../gtx/rotate_vector.hpp"
+	"vector_angle.inl"
+
+1502884118 c:\users\elian\onedrive\bureau\cpp\jeu\include\glm\gtc\epsilon.hpp
+	"../detail/setup.hpp"
+	"../detail/precision.hpp"
+	"epsilon.inl"
+
+1502884118 c:\users\elian\onedrive\bureau\cpp\jeu\include\glm\gtc\epsilon.inl
+	"quaternion.hpp"
+	"../vector_relational.hpp"
+	"../common.hpp"
+	"../vec2.hpp"
+	"../vec3.hpp"
+	"../vec4.hpp"
+
+1502884118 c:\users\elian\onedrive\bureau\cpp\jeu\include\glm\gtx\quaternion.hpp
+	"../glm.hpp"
+	"../gtc/constants.hpp"
+	"../gtc/quaternion.hpp"
+	"../gtx/norm.hpp"
+	"quaternion.inl"
+
+1502884118 c:\users\elian\onedrive\bureau\cpp\jeu\include\glm\gtx\norm.hpp
+	"../detail/func_geometric.hpp"
+	"../gtx/quaternion.hpp"
+	"norm.inl"
+
+1502884118 c:\users\elian\onedrive\bureau\cpp\jeu\include\glm\gtx\norm.inl
+	"../detail/precision.hpp"
+
+1502884118 c:\users\elian\onedrive\bureau\cpp\jeu\include\glm\gtx\quaternion.inl
+	<limits>
+	"../gtc/constants.hpp"
+
+1502884118 c:\users\elian\onedrive\bureau\cpp\jeu\include\glm\gtx\vector_angle.inl
+
+1661298190 source:c:\users\elian\onedrive\bureau\cpp\jeu\resource\camera\camera.cpp
+	"camera.h"
+
+1661626477 source:c:\users\elian\onedrive\bureau\cpp\jeu\source\mesh\mesh.cpp
+	"mesh.h"
+
+1661626812 c:\users\elian\onedrive\bureau\cpp\jeu\source\mesh\mesh.h
+	<string>
+	<vector>
+	<iostream>
+	"vao.h"
+	"ebo.h"
+	"camera.h"
+	"texture.h"
+
+1661293629 c:\users\elian\onedrive\bureau\cpp\jeu\source\model\model.h
+	<json/json.h>
+	"mesh.h"
+
+1661072295 c:\users\elian\onedrive\bureau\cpp\jeu\include\json\json.h
+	<algorithm>
+	<cstddef>
+	<functional>
+	<initializer_list>
+	<iosfwd>
+	<iterator>
+	<memory>
+	<numeric>
+	<string>
+	<utility>
+	<vector>
+	<utility>
+	<algorithm>
+	<array>
+	<forward_list>
+	<iterator>
+	<map>
+	<string>
+	<tuple>
+	<type_traits>
+	<unordered_map>
+	<utility>
+	<valarray>
+	<cstddef>
+	<exception>
+	<stdexcept>
+	<string>
+	<vector>
+	<array>
+	<cstddef>
+	<cstdint>
+	<string>
+	<utility>
+	<type_traits>
+	<stdint.h>
+	<stdint.h>
+	<version>
+	<cstdlib>
+	<cassert>
+	<compare>
+	<cstddef>
+	<array>
+	<cstddef>
+	<type_traits>
+	<utility>
+	<limits>
+	<type_traits>
+	<utility>
+	<tuple>
+	<iterator>
+	<cstdint>
+	<map>
+	<memory>
+	<string>
+	<vector>
+	<cstring>
+	<string>
+	<utility>
+	<experimental/filesystem>
+	<filesystem>
+	<algorithm>
+	<iterator>
+	<string>
+	<tuple>
+	<type_traits>
+	<utility>
+	<valarray>
+	<vector>
+	<cstddef>
+	<iterator>
+	<string>
+	<tuple>
+	<utility>
+	<ranges>
+	<cstdint>
+	<tuple>
+	<utility>
+	<cstdint>
+	<cstddef>
+	<functional>
+	<algorithm>
+	<array>
+	<cmath>
+	<cstddef>
+	<cstdint>
+	<cstdio>
+	<cstring>
+	<iterator>
+	<limits>
+	<string>
+	<utility>
+	<vector>
+	<array>
+	<cstddef>
+	<cstring>
+	<iterator>
+	<memory>
+	<numeric>
+	<string>
+	<type_traits>
+	<utility>
+	<cstdio>
+	<istream>
+	<cstddef>
+	<string>
+	<utility>
+	<vector>
+	<array>
+	<clocale>
+	<cstddef>
+	<cstdio>
+	<cstdlib>
+	<initializer_list>
+	<string>
+	<utility>
+	<vector>
+	<cstdint>
+	<utility>
+	<string>
+	<cmath>
+	<cstdint>
+	<functional>
+	<string>
+	<utility>
+	<vector>
+	<cstddef>
+	<limits>
+	<iterator>
+	<type_traits>
+	<cstddef>
+	<iterator>
+	<utility>
+	<algorithm>
+	<cctype>
+	<cerrno>
+	<cstdlib>
+	<iosfwd>
+	<limits>
+	<numeric>
+	<string>
+	<utility>
+	<vector>
+	<initializer_list>
+	<utility>
+	<algorithm>
+	<array>
+	<map>
+	<cmath>
+	<cstdint>
+	<cstring>
+	<limits>
+	<string>
+	<utility>
+	<vector>
+	<algorithm>
+	<cstddef>
+	<iterator>
+	<memory>
+	<string>
+	<vector>
+	<ios>
+	<ostream>
+	<algorithm>
+	<array>
+	<clocale>
+	<cmath>
+	<cstddef>
+	<cstdint>
+	<cstdio>
+	<limits>
+	<string>
+	<iomanip>
+	<type_traits>
+	<utility>
+	<array>
+	<cmath>
+	<cstdint>
+	<cstring>
+	<limits>
+	<type_traits>
+	<functional>
+	<initializer_list>
+	<iterator>
+	<memory>
+	<stdexcept>
+	<type_traits>
+	<utility>
+	<vector>
+	<any>
+	<string_view>
+
+1661434284 source:c:\users\elian\onedrive\bureau\cpp\jeu\source\model\model.cpp
+	"model.h"
+
+1651746006 c:\users\elian\onedrive\bureau\cpp\jeu\resource\models\map
+

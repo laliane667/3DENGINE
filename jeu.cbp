@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="jeu" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/jeu" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+					<Add directory="include" />
+					<Add directory="resource/VBO" />
+					<Add directory="resource/VAO" />
+					<Add directory="resource/EBO" />
+					<Add directory="resource/Textures" />
+					<Add directory="resource/Camera" />
+					<Add directory="source/Mesh" />
+					<Add directory="source/Model" />
+					<Add directory="./" />
+					<Add directory="source/GUI" />
+				</Compiler>
+				<Linker>
+					<Add library="glfw3" />
+					<Add library="gdi32" />
+					<Add library="opengl32" />
+					<Add directory="lib-mingw" />
+				</Linker>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/jeu" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add directory="include" />
+					<Add directory="resource/VBO" />
+					<Add directory="resource/VAO" />
+					<Add directory="resource/EBO" />
+					<Add directory="resource/Textures" />
+					<Add directory="resource/Camera" />
+					<Add directory="source/Mesh" />
+					<Add directory="source/Model" />
+					<Add directory="./" />
+					<Add directory="source/GUI" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+					<Add library="glfw3" />
+					<Add library="gdi32" />
+					<Add library="opengl32" />
+					<Add directory="lib-mingw" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+			<Add directory="include" />
+			<Add directory="resource/Shaders" />
+			<Add directory="resource/EBO" />
+			<Add directory="resource/VAO" />
+			<Add directory="resource/VBO" />
+			<Add directory="resource/Camera" />
+			<Add directory="source/Mesh" />
+			<Add directory="resource/Models" />
+		</Compiler>
+		<Linker>
+			<Add library="glfw3" />
+			<Add library="gdi32" />
+			<Add library="opengl32" />
+			<Add directory="lib-mingw" />
+		</Linker>
+		<Unit filename="engine.cpp" />
+		<Unit filename="engine.h" />
+		<Unit filename="game.cpp" />
+		<Unit filename="game.h" />
+		<Unit filename="glad.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="header.h" />
+		<Unit filename="include/json/json.h" />
+		<Unit filename="main.cpp" />
+		<Unit filename="resource/Camera/camera.cpp" />
+		<Unit filename="resource/Camera/camera.h" />
+		<Unit filename="resource/EBO/ebo.cpp" />
+		<Unit filename="resource/EBO/ebo.h" />
+		<Unit filename="resource/Shaders/default.frag" />
+		<Unit filename="resource/Shaders/default.vert" />
+		<Unit filename="resource/Shaders/frameBuffer.frag" />
+		<Unit filename="resource/Shaders/frameBuffer.vert" />
+		<Unit filename="resource/Shaders/gui.frag" />
+		<Unit filename="resource/Shaders/gui.vert" />
+		<Unit filename="resource/Shaders/light.frag" />
+		<Unit filename="resource/Shaders/light.vert" />
+		<Unit filename="resource/Shaders/shaders.cpp" />
+		<Unit filename="resource/Shaders/shaders.h" />
+		<Unit filename="resource/Shaders/transparency.frag" />
+		<Unit filename="resource/Textures/texture.cpp" />
+		<Unit filename="resource/Textures/texture.h" />
+		<Unit filename="resource/VAO/vao.cpp" />
+		<Unit filename="resource/VAO/vao.h" />
+		<Unit filename="resource/VBO/vbo.cpp" />
+		<Unit filename="resource/VBO/vbo.h" />
+		<Unit filename="source/Mesh/mesh.cpp" />
+		<Unit filename="source/Mesh/mesh.h" />
+		<Unit filename="source/Model/model.cpp" />
+		<Unit filename="source/Model/model.h" />
+		<Unit filename="stb.cpp" />
+		<Unit filename="world.cpp" />
+		<Unit filename="world.h" />
+		<Extensions>
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
